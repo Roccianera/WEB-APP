@@ -1,0 +1,97 @@
+Progetto Wep-APP:
+
+Il progetto possiede due viste uno per ogni attore :
+//Ho bisogno di utilizzare due server node.js e due index.html
+
+Nome progetto : __BLANK__
+
+
+
+
+
+
+
+La parte che reallizzero del progetto 
+
+
+
+Si vuole realizzare un sistema software per un agente di artisti, che organizza eventi di vari
+generi musicali.
+L’agente - gestore del sistema - può inserire, modificare e rimuovere musicisti, assegnando
+loro una password. Questi possono essere cantanti o strumentisti. Entrambi sono
+caratterizzati da nome, cognome, e-mail, telefono ed un cachet per serata (in euro). Per i
+cantanti è necessario tenere traccia del genere musicale (classica, leggera, pop, jazz); per i
+cantanti di musica classica occorre conoscere il registro vocale (soprano, mezzosoprano,
+contralto, tenore, baritono, basso); per gli strumentisti è necessario tenere traccia degli
+strumenti (fino a 4) in cui sono specializzati (flauto, oboe, viola, violino, violoncello,
+pianoforte, batteria, chitarra, basso, tastiere, …).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AGENTE :
+// Unico e per ora senza  credenziali 
+
+
+	-- GESTIONE ARTISTI 
+	1) Inserimento artista con password;
+	2) Modifica artista;
+	3) Rimozione artista;
+	4) Artista: Nome, cognome , email , password, chachet , telefono  ,Specialistica .
+     		Cantanti(Artista): Genere               Classista(Cantanti where genere ==Classico) : Registro vocale
+   		Strumentista : n. Strumenti (1...4)
+
+
+
+
+	-- GESTIONE EVENTI 
+	5) Organizzazione Eventi :  Data , Luogo , Costo totale( Chachet per Artista) ,Tipologia
+		Esibizione : Cantante (1) , Strumentisti( 1...*)
+		Concerto :   Cantante (1....*), Strumentisti(1...*)
+		Strumentale: Strumentisti( 1....*)
+
+	6) Vista di artisti disponibili per una certa data 
+		7) Creazione Evento specificando data , luogo ,tipologia , selezionamento degli artisti 
+			8)  Dopo aver selezionato  l artista il sistema invia email 
+	 9)  Mostra resoconto dell ' evento e costo
+
+
+
+ARTISTA :
+   //	Possiede credenziali
+		
+	10) Accesso con credenziali (Email , Password)
+	11) Inserimento di disponibilita 
+		12) Vista Eventi convocati con Stato	
+
+
+
+13) il sistema il primo giorno di ogni mese il sistema genera ed invia all ' agente un report  degli eventi confermati nel mese precedente 
+	col relativo costo  dei compensi da  liquidare a ciascun artista per le esibizioni svolte nel mese 
+	
+
+
+//PROGETTAZIONE GRAFICA DEL WEB APP (DA FARE )
+
+//Opzione grafiche aggiuntive da utlizzare 
+
+
+

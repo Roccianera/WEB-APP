@@ -1,0 +1,374 @@
+
+
+
+body{
+
+    background-image: url("../images/HD-Nirvana-Wallpaper-2.jpg");
+}
+
+
+
+
+
+header {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.icona {
+
+    transform: scale(0.80);
+    float: left; 
+
+}
+
+.right img {
+    transform: scale(0.5);
+    margin-left: 30%;
+}
+
+
+
+
+
+header .container {
+
+
+    width: 70%;
+    height: 70px;
+    border-radius: 10px 10px 10px 10px;
+
+    background-color: #242424;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0 0 10px 5px greenyellow;
+
+}
+
+
+
+
+
+
+
+
+header .left{
+
+    
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    margin-left: 10px;
+    float: left;
+
+    height: 80%;
+    width: 30%;
+
+
+    display: flex;
+
+
+
+
+
+
+}
+
+
+header .container .right{
+
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    margin-left: 10px;
+    float: right;
+    height: 80%;
+    width: 60%;
+
+
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: auto;
+    
+}
+
+
+
+.button_inserisci{
+
+
+    
+    margin-right: 50px;
+    height: 40px;
+    margin-top: 5px;
+ 
+
+
+    width: 80px;
+    border-radius: 10px 10px 10px 10px;
+    background-color:  greenyellow;
+
+
+}
+
+
+.button_visualizza{
+
+ 
+    
+    margin-right: 50px;
+    height: 40px;
+    margin-top: 5px;
+
+
+ 
+
+    width: 80px;
+    border-radius: 10px 10px 10px 10px;
+    background-color:  greenyellow;
+
+    
+
+}
+
+
+/*
+
+con vh posso assegnare una percentuale dello schermo al $
+*/
+
+
+main {
+
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+
+}
+
+
+main .container {
+
+    max-height: 80%;
+  
+    min-width: 80%;
+
+    border-radius: 10px 10px 10px 10px;
+
+
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+
+  
+    
+
+
+    
+
+
+}
+
+
+.btn{
+
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    
+}
+
+.btn_button {
+    background-color: greenyellow;
+    width: 100%;
+
+
+}
+
+.insert_attribute{
+    background-color: #242424;
+    height: 40px;
+    display: flex;
+    flex-direction:row;
+    
+}
+
+
+.insert_attribute h1{
+    margin-right: 60%;
+    margin-left: 30px;
+    height: 50%;
+    margin-top: 10px;
+    width: 70px;
+    font:menu;
+    color: azure;
+    font-size: larger;
+
+
+}
+
+.insert_attribute input {
+
+    height: 50%;
+    margin-top: 10px;
+
+    width: 20%;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.insert_specialist{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    background: green;
+    justify-content: center;
+
+}
+
+.insert_specialist button {
+
+
+  
+    background-color: pink;
+    height: 60%;
+    margin-top: 8px;
+    width: 20%;
+    max-width: 200px;
+    margin: 10px;
+    
+
+
+}
+
+
+
+
+
+.active{
+    background-color: deeppink;
+}
+
+
+
+
+
+
+
+
+
+
+
+.artist{
+
+    background-color: #242424;
+
+    
+    width: 100%;
+    height: 130px;
+
+    display: flex;
+    flex-direction: row;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+
+
+
+}
+
+.artist img {
+    width: 100px;
+    height: 80px;
+    margin-top: 17px;
+    margin-left: 12px;
+ 
+    border: 10px;
+
+ 
+}
+
+
+.artist .name{
+    font-size:larger;
+    text-align: center;
+    margin-top: 30px;
+
+    width: 70%;
+}
+
+
+.artist button{
+
+    margin-top: 35px;
+   
+    margin-right: 20px;
+    margin-bottom: 35px ;
+    width: 40px;
+    border-radius: 10px 10px 10px 10px;
+    background-color:  greenyellow;
+
+
+}
+
+
+
+.more{
+    background-color:  greenyellow;
+    
+}
+.attribute{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    
+    border-width: 2px;
+    border-style: solid;
+    border-color:#242424;
+
+    
+}
+
+
+.attribute h1{
+
+    margin-left: 2%;
+    margin-right: 50px;
+    width: 200px;
+
+
+    border-width: 0 2px 0 0;
+    border-style: solid;
+    border-color:#242424;
+
+    
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.attribute h2{
+    margin-right: 55%;
+    margin-right: 20px;
+    width: 200px;
+}
+
+
+.attribute button{
+    margin-top: 5px;
+   
+    margin-right: 20px;
+    margin-bottom: 5px ;
+    width: 40px;
+    border-radius: 10px 10px 10px 10px;
+}
+.more .save{
+    width: 100%;
+    background-color:forestgreen;
+    height: 18px;
+}
